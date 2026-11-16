@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Campus Diaries | Student Blog</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Campus Diaries</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="nav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#posts">Posts</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="container text-center">
+      <p class="eyebrow">Student life &bull; coding &bull; learning</p>
+      <h1>Welcome to Campus Diaries</h1>
+      <p>Notes, tips and stories from my first year of college.</p>
+      <a href="#posts" class="btn btn-primary">Read Posts</a>
+    </div>
+  </section>
+
+  <section id="posts" class="container my-5">
+    <h2 class="section-title mb-4">Latest Posts</h2>
+    <div class="row g-4">
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card h-100 shadow">
+          <img src="https://picsum.photos/seed/post1/600/400" class="card-img-top" alt="Learning C++">
+          <div class="card-body">
+            <h3 class="card-title">Learning C++</h3>
+            <p class="card-text">How I got comfortable with classes, objects and pointers.</p>
+            <a href="#" class="btn btn-dark">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card h-100 shadow">
+          <img src="https://picsum.photos/seed/post2/600/400" class="card-img-top" alt="Exam preparation">
+          <div class="card-body">
+            <h3 class="card-title">Exam Preparation</h3>
+            <p class="card-text">A simple plan to revise Physics and Data Structures together.</p>
+            <a href="#" class="btn btn-dark">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card h-100 shadow">
+          <img src="https://picsum.photos/seed/post3/600/400" class="card-img-top" alt="First web project">
+          <div class="card-body">
+            <h3 class="card-title">My First Website</h3>
+            <p class="card-text">Building a responsive page with HTML, CSS and Bootstrap.</p>
+            <a href="#" class="btn btn-dark">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about-section">
+    <div class="container">
+      <div class="about-box">
+        <img class="photo" src="https://picsum.photos/seed/author/300/300" alt="Author">
+        <div>
+          <h2>Hi, I'm Janhvi</h2>
+          <p>I am a B.Tech student who loves coding and sharing what I learn along the way.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-dark text-white text-center p-4">
+    <p class="mb-0">&copy; 2026 Campus Diaries | All Rights Reserved</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

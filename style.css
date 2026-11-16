@@ -1,0 +1,114 @@
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f8f9ff;
+}
+
+.navbar {
+  background: #1c2541;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar-brand {
+  color: #ffd166 !important;
+  font-weight: 700;
+}
+
+.nav-link {
+  color: #fff !important;
+}
+
+.hero {
+  min-height: 480px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  background: linear-gradient(rgba(28,37,65,.75), rgba(28,37,65,.75)), url("https://picsum.photos/seed/hero/1400/700") center/cover;
+  padding: 60px 20px;
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  color: #ffd166;
+  font-size: .8rem;
+}
+
+.hero h1 {
+  font-weight: 800;
+  font-size: clamp(2rem, 5vw, 3.8rem);
+}
+
+.section-title {
+  text-align: center;
+  font-weight: 700;
+}
+
+.card {
+  border: 0;
+  border-radius: 16px;
+  overflow: hidden;
+  transition: transform .3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
+
+.card-img-top {
+  height: 210px;
+  object-fit: cover;
+}
+
+.about-section {
+  padding: 70px 20px;
+  background: #eef0ff;
+}
+
+.about-box {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  max-width: 900px;
+  margin: auto;
+  background: #fff;
+  padding: 28px;
+  border-radius: 22px;
+  box-shadow: 0 10px 30px #0001;
+}
+
+.photo {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+/* Media queries */
+@media (max-width: 768px) {
+  .hero {
+    min-height: 400px;
+  }
+
+  .about-box {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .photo {
+    width: 170px;
+    height: 170px;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero {
+    min-height: 340px;
+  }
+
+  .card-img-top {
+    height: 170px;
+  }
+}
